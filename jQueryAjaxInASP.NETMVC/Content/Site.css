@@ -22,3 +22,19 @@ select,
 textarea {
     max-width: 280px;
 }
+
+
+/* CSS Style for Bootstrap TAB*/
+
+ul.nav.nav-tabs {
+    margin:10px 0px;
+}
+
+ul.nav.nav-tabs li:not(:active) a {
+    background-color:#eeeeee;
+    color:grey;
+}
+
+ul.nav.nav-tabs li.active a {
+    border-top:3px solid #16a765;
+}
