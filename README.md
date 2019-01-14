@@ -18,7 +18,7 @@ And Download notify.min.js
 11) UPDATE Operation
 12) DELETE Operation
 13) Implement jQuery Datatable
-https://datatables.net/examples/basic_init/zero_configuration.htnl/
+https://datatables.net/examples/basic_init/zero_configuration.html/
 a) Copy CSS Refrence, Add to Index.cshtml
 b) Copy the Javascript, Add to Index.cshtml
 14) Add Loading Spinner or Loading Image Into ASP.NET MVC AJAX jQuery CRUD Operation
