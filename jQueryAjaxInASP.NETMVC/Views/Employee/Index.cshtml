@@ -3,16 +3,21 @@
     ViewBag.Title = "Index";
 }
 
+
 <ul class="nav nav-tabs">
-    <li class="active"> <a data-toggle="tab" href="#firstTab">View All</a> 
+    <li class="active">
+        <a data-toggle="tab" href="#firstTab">View All</a>
 
     </li>
     <li><a data-toggle="tab" href="#secondTab">View All</a></li>
 </ul>
 
 <div class="tab-content">
-    <div id="firstTab" class="tab-pane fade in active">Tab1 Content</div>
+    <div id="firstTab" class="tab-pane fade in active">
+        @Html.Action("ViewAll")
+    </div>
     <div id="secondTab" class="tab-pane fade in">Tab2 Content</div>
 
 </div>
+
 
