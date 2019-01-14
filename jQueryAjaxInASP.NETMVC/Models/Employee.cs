@@ -11,6 +11,7 @@ namespace jQueryAjaxInASP.NETMVC.Models
 {
     using System;
     using System.Collections.Generic;
+    using System.ComponentModel;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Web;
 
@@ -21,6 +22,8 @@ namespace jQueryAjaxInASP.NETMVC.Models
         public string Position { get; set; }
         public string Office { get; set; }
         public Nullable<int> Salary { get; set; }
+
+        [DisplayName("Image")]
         public string ImagePath { get; set; }
 
         /*
