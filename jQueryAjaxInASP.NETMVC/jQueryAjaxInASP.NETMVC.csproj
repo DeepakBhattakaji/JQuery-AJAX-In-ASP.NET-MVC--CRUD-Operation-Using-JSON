@@ -181,6 +181,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AppFiles\Images\default.png" />
     <Content Include="App_Data\jQueryAjaxIDB.mdf" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -240,6 +241,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Employee\Index.cshtml" />
     <Content Include="Views\Employee\ViewAll.cshtml" />
+    <Content Include="Views\Employee\AddOrEdit.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

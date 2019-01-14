@@ -27,5 +27,20 @@ namespace jQueryAjaxInASP.NETMVC.Controllers
             }
         }
 
+       // INSERT OPERATION
+
+            // Default GET METHOD
+       public ActionResult AddOrEdit(int id=0)
+        {
+            Employee emp = new Employee();
+            return View(emp);
+        }
+
+          // POST METHOD
+       [HttpPost]
+       public ActionResult AddOrEdit()
+        {
+            return View();
+        }
     }
 }

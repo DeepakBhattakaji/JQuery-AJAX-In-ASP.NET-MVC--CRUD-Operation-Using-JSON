@@ -5,18 +5,22 @@
 
 
 <ul class="nav nav-tabs">
-    <li class="active">
+    <li>
         <a data-toggle="tab" href="#firstTab">View All</a>
 
     </li>
-    <li><a data-toggle="tab" href="#secondTab">View All</a></li>
+    <li  class="active">
+    <a data-toggle="tab" href="#secondTab">Add New</a>
+    </li>
 </ul>
 
 <div class="tab-content">
-    <div id="firstTab" class="tab-pane fade in active">
+    <div id="firstTab" class="tab-pane fade in">
         @Html.Action("ViewAll")
     </div>
-    <div id="secondTab" class="tab-pane fade in">Tab2 Content</div>
+    <div id="secondTab" class="tab-pane fade in active">
+        @Html.Action("AddOrEdit")
+    </div>
 
 </div>
 
